@@ -3,3 +3,14 @@
 For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
 */
+
+function squareSum(numbers){
+    let answer = 0
+    for(let i = 0; i < numbers.length; i++){
+      let product = Number(numbers[i]**2) 
+      
+      answer += product
+      
+    }
+    return answer
+  }
